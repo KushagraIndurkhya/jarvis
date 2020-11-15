@@ -1,0 +1,27 @@
+{
+  "logout": {
+    "type": "command",
+    "ask_confirmation": 1,
+    "action": "systemctl suspend"
+  },
+  "shutdown": {
+    "type": "command",
+    "ask_confirmation": 1,
+    "action": "shutdown -h"
+  },
+  "restart": {
+    "type": "command",
+    "ask_confirmation": 1,
+    "action": "shutdown /r /t 1"
+  },
+  "Open terminal": {
+    "type": "command",
+    "ask_confirmation": 1,
+    "action": "gnome-terminal"
+  },
+  "who created you": {
+    "type": "question",
+    "answer": "I was created by kushagra indurkhya on January twenty  two thousand twenty"
+  }
+
+}
